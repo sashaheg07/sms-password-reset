@@ -6,7 +6,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use ItTop\SmsPasswordReset\Services\SmscService;
+use sashaheg07\SmsPasswordReset\Services\SmscService;
 use App\Http\Controllers\Controller;
 
 class SmsPasswordResetController extends Controller
