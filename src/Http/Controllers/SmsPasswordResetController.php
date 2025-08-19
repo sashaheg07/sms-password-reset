@@ -1,6 +1,6 @@
 <?php
 
-namespace ItTop\SmsPasswordReset\Http\Controllers;
+namespace sashaheg07\SmsPasswordReset\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
