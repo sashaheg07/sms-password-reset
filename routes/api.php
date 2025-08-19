@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use ItTop\SmsPasswordReset\Http\Controllers\SmsPasswordResetController;
+use sashaheg07\SmsPasswordReset\Http\Controllers\SmsPasswordResetController;
 
 Route::post('/password/forgot', [SmsPasswordResetController::class, 'forgot']);
 Route::post('/password/verify', [SmsPasswordResetController::class, 'verify']);
