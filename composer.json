@@ -1,0 +1,21 @@
+{
+    "name": "it-top/sms-password-reset",
+    "description": "Password reset via SMS using smsc.kz",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ItTop\\SmsPasswordReset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ItTop\\SmsPasswordReset\\SmsPasswordResetServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^10.0|^11.0"
+    }
+}
