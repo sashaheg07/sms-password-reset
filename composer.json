@@ -1,5 +1,5 @@
 {
-    "name": "it-top/sms-password-reset",
+    "name": "sashaheg07/sms-password-reset",
     "description": "Password reset via SMS using smsc.kz",
     "type": "library",
     "autoload": {
@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ItTop\\SmsPasswordReset\\SmsPasswordResetServiceProvider"
+                "sashaheg07\\SmsPasswordReset\\SmsPasswordResetServiceProvider"
             ]
         }
     },
