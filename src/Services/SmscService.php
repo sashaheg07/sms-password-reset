@@ -1,6 +1,6 @@
 <?php
 
-namespace ItTop\SmsPasswordReset\Services;
+namespace sashaheg07\SmsPasswordReset\Services;
 
 use Illuminate\Support\Facades\Http;
 
