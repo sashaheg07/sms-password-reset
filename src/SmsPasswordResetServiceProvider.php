@@ -1,6 +1,6 @@
 <?php
 
-namespace ItTop\SmsPasswordReset;
+namespace sashaheg07\SmsPasswordReset;
 
 use Illuminate\Support\ServiceProvider;
 
